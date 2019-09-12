@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "myfirstagent-9ce4b": {
+      "hosting": {
+        "ng-quickstart": [
+          "myfirstagent-9ce4b"
+        ]
+      }
+    }
+  }
+}

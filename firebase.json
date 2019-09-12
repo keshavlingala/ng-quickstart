@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ng-quickstart",
+      "public": "dist/ng-quickstart",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
